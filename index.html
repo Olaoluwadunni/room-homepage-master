@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Room homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,7 +14,20 @@
   </style>
 </head>
 <body>
-  <section>
+  <!--preloader HTML-->
+  <div class="loader">
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <section class="main">
     <nav>
       <ul>
         <li> Home</li>
@@ -37,7 +49,7 @@
       </div>
     </article>
   </section>
-  <section>
+  <section class= "About">
     <img src="/images/image-about-dark.jpg" class="about-dark">
     <article class="about-our-furniture">
       <h4>ABOUT OUR FURNITURE</h4>
@@ -60,7 +72,7 @@
 
   
 
-  We are available all across the globe
+  <!--We are available all across the globe
 
   With stores all over the world, it's easy for you to find furniture for your home or place of business. 
   Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
@@ -74,7 +86,7 @@
   to ensure that every product is made as perfect and as consistent as possible. With three decades of 
   experience in this industry, we understand what customers want for their home and office.
 
-  Shop now
+  Shop now-->
 
   
 
@@ -83,5 +95,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
